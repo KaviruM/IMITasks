@@ -1,0 +1,53 @@
+.directional-cursor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  will-change: transform;
+  transition: background-image 0.1s ease;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.sprint-cursor-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #306850;
+  overflow: hidden;
+  cursor: none;
+  font-family: "Courier New", monospace;
+}
+
+.instructions {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #d4f4d4;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: 2px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.status-panel {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  padding: 15px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #d4f4d4;
+  border-radius: 8px;
+  color: #d4f4d4;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

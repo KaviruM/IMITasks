@@ -1,0 +1,173 @@
+/* Simple beginner CSS for Color Clicking Game */
+
+/* Main container - centers everything on the page */
+.game-container {
+  text-align: center;
+  padding: 20px;
+  background-color: lightgray;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Game card - the main game area */
+.game-card {
+  background-color: white;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Game over card */
+.game-over-card {
+  background-color: white;
+  border: 2px solid red;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+/* Header section */
+.header {
+  margin-bottom: 30px;
+}
+
+.game-title {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.score-display {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.score-value {
+  color: blue;
+  font-weight: bold;
+}
+
+.instructions {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Game over styles */
+.game-over-title {
+  color: red;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.final-score {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.score-highlight {
+  color: blue;
+  font-weight: bold;
+}
+
+.game-over-message {
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.play-again-btn {
+  background-color: green;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.play-again-btn:hover {
+  background-color: darkgreen;
+}
+
+/* Colors display area */
+.colors-container {
+  margin-bottom: 30px;
+}
+
+.colors-display {
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid blue;
+  display: inline-block;
+}
+
+.no-colors {
+  color: gray;
+  font-style: italic;
+}
+
+/* Individual color boxes */
+.color-box {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.color-box.red {
+  background-color: red;
+}
+
+.color-box.blue {
+  background-color: blue;
+}
+
+.color-box.last-color {
+  border: 4px solid gold;
+}
+
+/* Button section */
+.buttons-container {
+  margin-bottom: 30px;
+}
+
+.color-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.red-btn {
+  background-color: red;
+}
+
+.red-btn:hover {
+  background-color: darkred;
+}
+
+.blue-btn {
+  background-color: blue;
+}
+
+.blue-btn:hover {
+  background-color: darkblue;
+}
+
+.color-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Game info section */
+.game-info {
+  color: gray;
+  font-size: 14px;
+}
+
+.game-info p {
+  margin: 5px 0;
+}

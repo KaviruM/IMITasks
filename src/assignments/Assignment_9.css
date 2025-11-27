@@ -1,0 +1,120 @@
+/* Basic CSS for Assignment 9 */
+
+/* Container and general layout */
+.container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.back-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+/* Search controls */
+.controls {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.limit-label {
+    margin-left: 20px;
+}
+
+.limit-select {
+    padding: 8px;
+    margin-left: 5px;
+    border: 1px solid gray;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+/* Results section */
+.results-info {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.colors-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.color-item {
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.color-bullet {
+    margin-right: 8px;
+}
+
+.color-name {
+    font-weight: bold;
+}
+
+.color-code {
+    margin-left: 10px;
+    color: gray;
+}
+
+.color-rgb {
+    margin-left: 10px;
+    color: gray;
+}
+
+.no-results {
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Pagination controls */
+.pagination-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination-button {
+    padding: 8px 12px;
+    margin: 0 2px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: blue;
+    color: white;
+}
+
+.pagination-info {
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}

@@ -1,0 +1,105 @@
+.console-container {
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+.console-header {
+  background-color: #2d2d2d;
+  padding: 12px 20px;
+  border-bottom: 1px solid #444;
+  font-weight: bold;
+}
+
+.console-title {
+  color: white;
+}
+
+.output-area {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #1a1a1a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.welcome-message {
+  margin-bottom: 16px;
+  color: #666;
+  font-size: 12px;
+}
+
+.output-line {
+  margin-bottom: 8px;
+}
+
+.command-line {
+  color: white;
+}
+
+.prompt {
+  color: #50fa7b;
+  margin-right: 8px;
+}
+
+.result-line {
+  margin-left: 16px;
+  white-space: pre-wrap;
+}
+
+.error-line {
+  margin-left: 16px;
+  color: #ff5555;
+}
+
+.output-string {
+  color: #fe8d59;
+}
+
+.output-number {
+  color: #9980ff;
+}
+
+.output-boolean {
+  color: #9980ff;
+}
+
+.output-object {
+  color: #5cd5fb;
+}
+
+.output-undefined {
+  color: #888888;
+}
+
+.input-area {
+  background-color: #2d2d2d;
+  padding: 16px 20px;
+  border-top: 1px solid #444;
+  display: flex;
+  align-items: center;
+}
+
+.input-prompt {
+  color: #50fa7b;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.input-field {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.input-field::placeholder {
+  color: #666;
+}

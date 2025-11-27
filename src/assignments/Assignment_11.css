@@ -1,0 +1,307 @@
+.assignment-11 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.assignment-11 h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.user-profile {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.profile-details {
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.profile-details p {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.profile-details strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.logout-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+form button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-edit-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Avatar Upload Section - Add these styles to your existing CSS */
+
+.avatar-upload-section {
+    background-color: #e3f2fd;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 2px dashed #007bff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.avatar-upload-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-label:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.file-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    width: 100%;
+    max-width: 300px;
+}
+
+.file-info p {
+    margin: 5px 0;
+    color: #6c757d;
+}
+
+.preview-container {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.preview-image {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff;
+}
+
+.upload-btn {
+    background-color: #fd7e14;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+}
+
+.upload-btn:hover:not(:disabled) {
+    background-color: #e36209;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.upload-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for Avatar Upload */
+@media (max-width: 768px) {
+    .avatar-upload-section {
+        padding: 20px;
+    }
+    
+    .file-label,
+    .upload-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .preview-image {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    
+    .file-info {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .avatar-upload-section {
+        padding: 15px;
+    }
+    
+    .avatar-upload-container {
+        gap: 10px;
+    }
+    
+    .file-label,
+    .upload-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}

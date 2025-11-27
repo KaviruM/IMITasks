@@ -1,0 +1,149 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  padding: 50px;
+}
+
+.error {
+  text-align: center;
+  font-size: 18px;
+  padding: 50px;
+  color: #e74c3c;
+}
+
+.complete {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 2px solid #28a745;
+}
+
+.final-score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+  margin: 20px 0;
+}
+
+.restart-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.restart-btn:hover {
+  background-color: #0056b3;
+}
+
+.quiz {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.progress {
+  height: 4px;
+  background-color: #e9ecef;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745;
+  transition: width 0.3s ease;
+}
+
+.question-card {
+  padding: 30px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer-btn {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #dee2e6;
+  border-radius: 5px;
+  background-color: white;
+  color: #000000;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.answer-btn:hover {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}
+
+.answer-btn:disabled {
+  cursor: not-allowed;
+}
+
+.answer-btn.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.answer-btn.incorrect {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.answer-btn.disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.feedback {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}

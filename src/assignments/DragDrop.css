@@ -1,0 +1,33 @@
+.drag-drop-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.drag-drop-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drag-drop-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.drag-drop-item {
+    padding: 15px;
+    background-color: #000000;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: move;
+    user-select: none;
+}
+
+.drag-drop-item:hover {
+    background-color: #3d3d3d;
+    border-color: #ccc;
+}

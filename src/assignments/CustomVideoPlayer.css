@@ -1,0 +1,66 @@
+.main-container {
+    padding: 20px;
+    background: #1c1496;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    
+}
+
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.progress-container {
+    width: 620px;
+    background-color: #3a3a3a;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 6px;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #ff8c42;
+    border-radius: 3px;
+    transition: width 0.1s ease;
+}
+
+.progress-handle {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: #ff8c42;
+    border-radius: 50%;
+    transition: opacity 0.2s ease;
+}
+
+.time-display {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    min-width: 80px;
+    text-align: right;
+}

@@ -1,0 +1,50 @@
+/* Assignment_22.css */
+
+.image-filter-app {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.reset-image-btn {
+    margin-left: 10px;
+}
+
+.image-display {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filtered-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.filters-section {
+    margin-bottom: 20px;
+}
+
+.reset-filters-btn {
+    margin-bottom: 10px;
+}
+
+.filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.filter-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-slider {
+    width: 100%;
+}

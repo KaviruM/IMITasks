@@ -1,0 +1,49 @@
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.text-item {
+  position: absolute;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.8);
+}
+
+.text-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+  font-family: system-ui, sans-serif;
+}
+
+.text-subtitle {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.9;
+  font-family: system-ui, sans-serif;
+}
