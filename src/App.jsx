@@ -44,6 +44,7 @@ import CustomVideoPlayer from "./assignments/CustomVideoPlayer.jsx";
 import ZoomIN from "./assignments/ZoomIN.jsx";
 import CanvasVideoRec from "./assignments/CanvasVideoRec.jsx";
 import MusicPlayer from "./assignments/MusicPlayer.jsx";
+import LocationTrack from "./assignments/LocationFetch.jsx";
 
 function HomePage() {
   return (
@@ -179,6 +180,9 @@ function HomePage() {
         <Link to="/music-player">
           <button>Music Player</button>
         </Link>
+        <Link to="/location-track">
+          <button>Location Track</button>
+        </Link>
       </div>
     </div>
   );
@@ -232,6 +236,7 @@ function App() {
         <Route path="/zoom-in" element={<ZoomIN />} />
         <Route path="/canvas-video-rec" element={<CanvasVideoRec />} />
         <Route path="/music-player" element={<MusicPlayer />} />
+        <Route path="/location-track" element={<LocationTrack />} />
       </Routes>
     </Router>
   );
