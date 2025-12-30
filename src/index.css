@@ -66,3 +66,36 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.main-screen[data-theme="light"] {
+  --bg-color: #ffffffe1;
+  --tx-color: #000000;
+  --toggle-bg: #d1d5db;
+  --slider-bg: #000000;
+  --topbar-bg: #c2c2c2;
+  --search-tx: #000000;
+  --search-placeholder: #9ca3af;
+  --search-icon: #6b7280;
+  --search-border: #d1d5db;
+  --search-border-focus: #9ca3af;
+  --card-bg: #f3f4f6;
+  --card-line: #d1d5db;
+  --bar-bg: #e5e7eb;
+
+}
+
+.main-screen[data-theme="dark"] {
+  --bg-color: #1d1d1d;
+  --tx-color: #ffffff;
+  --toggle-bg: #000000;
+  --slider-bg: #ffffff;
+  --topbar-bg: #303030;
+  --search-tx: #ffffff;
+  --search-placeholder: #6b7280;
+  --search-icon: #9ca3af;
+  --search-border: #4b5563;
+  --search-border-focus: #6b7280;
+  --card-bg: #424242;
+  --card-line: #797979;
+  --bar-bg: #4b5563;
+}
