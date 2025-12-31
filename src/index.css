@@ -68,34 +68,34 @@ button:focus-visible {
 }
 
 .main-screen[data-theme="light"] {
-  --bg-color: #ffffffe1;
+  --bg-color: #fafafa;
   --tx-color: #000000;
-  --toggle-bg: #d1d5db;
-  --slider-bg: #000000;
-  --topbar-bg: #c2c2c2;
+  --toggle-bg: #11cba4;
+  --slider-bg: #fafafa;
+  --topbar-bg: #ffffff;
   --search-tx: #000000;
   --search-placeholder: #9ca3af;
   --search-icon: #6b7280;
   --search-border: #d1d5db;
   --search-border-focus: #9ca3af;
-  --card-bg: #f3f4f6;
+  --card-bg: #f8f8f8;
   --card-line: #d1d5db;
-  --bar-bg: #e5e7eb;
+  --bar-bg: #e6e6e6;
 
 }
 
 .main-screen[data-theme="dark"] {
-  --bg-color: #1d1d1d;
+  --bg-color: #333333;
   --tx-color: #ffffff;
-  --toggle-bg: #000000;
-  --slider-bg: #ffffff;
-  --topbar-bg: #303030;
-  --search-tx: #ffffff;
+  --toggle-bg: #303432;
+  --slider-bg: #11cba4;
+  --topbar-bg: #4d4d4d;
+  --search-tx: #0a0808;
   --search-placeholder: #6b7280;
   --search-icon: #9ca3af;
   --search-border: #4b5563;
   --search-border-focus: #6b7280;
   --card-bg: #424242;
   --card-line: #797979;
-  --bar-bg: #4b5563;
+  --bar-bg: #3f3f3f;
 }

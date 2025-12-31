@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #525252;
+  background-color: #e6e6e696;
 }
 
 .main-screen {
@@ -11,7 +11,7 @@
   height: 500px;
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 25px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s;
   background-color: var(--bg-color);
@@ -20,7 +20,7 @@
 
 .top-bar {
   width: 100%;
-  height: 100px;
+  height: 90px;
   background-color: var(--topbar-bg);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -50,9 +50,6 @@
   background-color: var(--toggle-bg);
 }
 
-.toggle-button:focus {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
-}
 
 .toggle-slider {
   position: absolute;
@@ -61,7 +58,6 @@
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
   background-color: var(--slider-bg);
 }
@@ -116,7 +112,6 @@
 
 .content-area {
   flex: 1;
-  width: 100%;
   padding: 0 30px 30px 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -144,9 +139,9 @@
 }
 
 .card-icon {
-  width: 15px;
-  height: 15px;
-  border-radius: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
@@ -160,43 +155,47 @@
 
 .card-header {
   flex: 1;
-  height: 10px;
+  height: 13px;
   background-color: var(--card-line);
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .card-line {
-  width: 100%;
-  height: 8px;
+  width: 90%;
+  height: 13px;
   background-color: var(--card-line);
-  border-radius: 4px;
+  border-radius: 3px;
+}
+
+.card-line.middle {
+  width: 85%;
 }
 
 .card-line.short {
-  width: 50%;
+  width: 100%;
 }
 
 .chart-container {
-  width: 100%;
-  padding: 0 30px 30px 30px;
+  flex: 1;
+  display: flex;
+  margin-left: 30px;
+  gap: 8px;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
-.chart {
-  width: 100%;
-  height: 120px;
-  background-color: var(--card-bg);
-  border-radius: 12px;
-  padding: 15px;
+.bar-main {
+  width: 30px;
+  height: 100%;
+  background-color: var(--bar-bg);
+  border-radius: 6px;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  gap: 8px;
 }
 
 .bar {
-  flex: 1;
-  background-color: #3b82f6;
-  border-radius: 4px 4px 0 0;
-  min-height: 15px;
-  transition: height 0.3s ease;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: auto;
+  transition: height 0.3s;
+  background-color: #2f92f0;
 }

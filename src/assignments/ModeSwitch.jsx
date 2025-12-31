@@ -41,7 +41,7 @@ function ModeSwitch() {
               <div className="card-header"></div>
             </div>
             <div className="card-line"></div>
-            <div className="card-line"></div>
+            <div className="card-line middle"></div>
             <div className="card-line short"></div>
           </div>
 
@@ -51,22 +51,38 @@ function ModeSwitch() {
               <div className="card-header"></div>
             </div>
             <div className="card-line"></div>
-            <div className="card-line"></div>
+            <div className="card-line middle"></div>
             <div className="card-line short"></div>
           </div>
         </div>
 
         <div className="chart-container">
-          <div className="chart">
+          <div className="bar-main">
+            <div className="bar" style={{height: '15%'}}></div>
+          </div>
+          <div className="bar-main">
             <div className="bar" style={{height: '25%'}}></div>
-            <div className="bar" style={{height: '30%'}}></div>
-            <div className="bar" style={{height: '45%'}}></div>
-            <div className="bar" style={{height: '60%'}}></div>
-            <div className="bar" style={{height: '75%'}}></div>
-            <div className="bar" style={{height: '90%'}}></div>
-            <div className="bar" style={{height: '80%'}}></div>
-            <div className="bar" style={{height: '65%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '35%'}}></div>
+          </div>
+          <div className="bar-main">
             <div className="bar" style={{height: '50%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '65%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '75%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '65%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '40%'}}></div>
+          </div>
+          <div className="bar-main">
+            <div className="bar" style={{height: '30%'}}></div>
           </div>
         </div>
 
