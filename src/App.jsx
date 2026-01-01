@@ -46,6 +46,7 @@ import CanvasVideoRec from "./assignments/CanvasVideoRec.jsx";
 import MusicPlayer from "./assignments/MusicPlayer.jsx";
 import LocationTrack from "./assignments/LocationFetch.jsx";
 import ModeSwitch from "./assignments/ModeSwitch.jsx";
+import WaterSortPuzzle from "./assignments/WaterSortPuzzle.jsx";
 
 function HomePage() {
   return (
@@ -187,6 +188,9 @@ function HomePage() {
         <Link to="/mode-switch">
           <button>Mode Switch</button>
         </Link>
+        <Link to="/water-sort-puzzle">
+          <button>Water Sort Puzzle</button>
+        </Link>
       </div>
     </div>
   );
@@ -242,6 +246,7 @@ function App() {
         <Route path="/music-player" element={<MusicPlayer />} />
         <Route path="/location-track" element={<LocationTrack />} />
         <Route path="/mode-switch" element={<ModeSwitch />} />
+        <Route path="/water-sort-puzzle" element={<WaterSortPuzzle />} />
       </Routes>
     </Router>
   );
