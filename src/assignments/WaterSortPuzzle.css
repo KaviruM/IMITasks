@@ -95,3 +95,33 @@
 .reset-button:hover {
   background: #2d7fd4;
 }
+
+.tube-container {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.tube-container:hover {
+  transform: translateY(-5px);
+}
+
+.tube-container.selected {
+  transform: translateY(-10px);
+  filter: brightness(1.2);
+}
+
+.tube-container.selected .tube-body {
+  box-shadow: 0 0 20px rgba(59, 158, 255, 0.6);
+}
+
+.win-message {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  animation: slideIn 0.5s ease-out;
+}
